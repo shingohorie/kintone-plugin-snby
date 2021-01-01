@@ -43,7 +43,7 @@ const __post = (url) => {
 	fetch(url, opt)
 		.then((res) => res.json())
 		.then((json) => {
-			if (!records.length === 0) {
+			if (!records.length) {
 				console.log('completed');
 				return;
 			}
