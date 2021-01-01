@@ -1,0 +1,27 @@
+{
+	"manifest_version": 1,
+	"version": 1,
+	"type": "APP",
+	"name": {
+		"ja": "kintone-plugin-snby",
+		"en": "kintone-plugin-snby"
+	},
+	"description": {
+		"ja": "kintone-plugin-snby",
+		"en": "kintone-plugin-snby"
+	},
+	"icon": "image/icon.jpg",
+	"desktop": {
+		"js": [
+			"https://js.cybozu.com/jquery/3.5.1/jquery.min.js",
+			"https://js.cybozu.com/lodash/4.17.20/lodash.min.js",
+			"https://js.cybozu.com/momentjs/2.29.1/moment-with-locales.min.js",
+			"https://js.cybozu.com/es6-promise/v4.2.5/es6-promise.auto.min.js",
+			"js/customize.js"
+		],
+		"css": [
+			"css/51-modern-default.css",
+			"css/customize.css"
+		]
+	}
+}

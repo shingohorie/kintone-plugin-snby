@@ -1,0 +1,33 @@
+#overlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 100;
+	color: #fff;
+}
+
+#deteleButton,
+#deteleAllButton {
+	color: red;
+	background-color: #fbe8ec;
+}
+
+#deteleButton:hover,
+#deteleAllButton:hover {
+	background-color: #e4d3d6;
+}
+
+#clearButton {
+	color: #25bb32;
+	background-color: #dcf7d9;
+}
+
+#clearButton:hover {
+	background-color: #c9ddc8;
+}
