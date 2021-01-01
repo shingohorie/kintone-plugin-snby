@@ -11,19 +11,6 @@ const API_URL = `https://${APP_DOMAIN}.cybozu.com/k/v1/records.json?app=${APP_ID
 const API_TOKEN = 'your-token';
 const DATA = 'path/to/csv';
 
-// fetch option
-const opt = {
-	method: 'POST',
-	headers: {
-		'X-Cybozu-API-Token': API_TOKEN,
-		'Content-Type': 'application/json'
-	},
-	body: JSON.stringify({
-		"app": APP_ID,
-		"records": _records
-	})
-}
-
 let records = [];
 
 // debug
